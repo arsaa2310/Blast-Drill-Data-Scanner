@@ -9,8 +9,7 @@ from sya import coordinates, tambah_waktu
 st.set_page_config(layout="centered")
 st.title("🖼️ Analisis Gambar Time Sheet Drilling")
 
-uploaded_file = st.file_uploader("📂 Upload Gambar", type=["png", "jpg", "jpeg"])
-
+uploaded_file = r"/mount/src/Blast-Drill-Data-Scanner/image_fix.png"
 
 if uploaded_file is not None:
     # Baca dan konversi gambar ke OpenCV format

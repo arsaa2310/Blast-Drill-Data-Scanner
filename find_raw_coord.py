@@ -26,8 +26,9 @@ drawing = False
 ix, iy = -1, -1
 question_number = 1
 option_index = 0
-options = ["DRILLING", "TRAVEL", "P2H", "ISI FUEL", "EVAKUASI", "SAFETY TALK", "GANTI BIT", "GANTI ROD", "WAITING AREA", "HUJAN", "WASHING", "TUNGGU PATTERN", "REST TIME", "REDRILL","BD","SERVICE"]
-output_file = 'roll_coordinates.txt'
+options = ["HOLE", "DEPTH PLANT", "DEPTH ACTUAL", "START", "FINISH", "TOTAL", "SOFT", "MEDIUM", 
+           "HARD", "RONGGA", "BASAH/KERING", "PERCSN", "RITTION", "FEED","FLUSHING","REMARKS"]
+output_file = 'roll_coordinates2.txt'
 
 # Clear previous output
 open(output_file, 'w').close()

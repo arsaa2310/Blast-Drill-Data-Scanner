@@ -1,2 +1,13 @@
-# Blast-Drill-Data-Scanner
-A Streamlit app for scanning and recording drill outcomes during a single mining shift using image processing with OpenCV. Designed to streamline blast operation reporting through scanned documents or images.
+# 💣Blast Drill Data Scanner
+
+A Streamlit app for extracting and digitizing blast drill results per mining shift using OpenCV.
+
+## Features
+- Upload scanned blast result forms
+- Detect and extract drill hole data
+- Export results to CSV
+
+## Usage
+```bash
+pip install -r requirements.txt
+streamlit run blast_scanner.py
